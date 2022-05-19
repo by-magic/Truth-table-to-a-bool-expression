@@ -1,0 +1,31 @@
+﻿<Window x:Class="Логическое_выражение.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Логическое_выражение"
+        mc:Ignorable="d"
+        Title="Конвертация в логическое выражение" Height="450" Width="800" WindowStartupLocation="CenterScreen" Topmost="True">
+    <Grid>
+        <Button Content="Выбрать файл" HorizontalAlignment="Left" Margin="33,33,0,0" VerticalAlignment="Top" Height="21" Width="88" Click="cmOpen"/>
+        <TextBox x:Name="tbText1" HorizontalAlignment="Left" Margin="273,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="21"/>
+        <Label Content="Путь к искомому файлу:" HorizontalAlignment="Left" Margin="131,28,0,0" VerticalAlignment="Top"/>
+        <Button Content="Создать логическое выражение!" HorizontalAlignment="Left" Height="25" Margin="33,144,0,0" VerticalAlignment="Top" Width="244" Click="cmMake"/>
+        <Label Content="Введите количество переменных функции:" HorizontalAlignment="Left" Margin="33,80,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbCount" HorizontalAlignment="Left" Margin="281,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"/>
+        <Button Content="Ввести" HorizontalAlignment="Left" Margin="341,87,0,0" VerticalAlignment="Top" Click="cmCountOfVar"/>
+        <Label Content="Полученное выражение:" HorizontalAlignment="Left" Margin="33,192,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbText3" HorizontalAlignment="Left" Margin="190,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Создать файл" HorizontalAlignment="Left" Margin="33,245,0,0" VerticalAlignment="Top" Height="23" Width="102" Click="cmMakeFile"/>
+        <Label Content="Путь файла с логическим выражением:" HorizontalAlignment="Left" Margin="158,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.595,-0.353"/>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Margin="398,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Выберите необходимый базис:" HorizontalAlignment="Left" Height="30" Margin="398,28,0,0" VerticalAlignment="Top" Width="185"/>
+        <CheckBox Content="И" HorizontalAlignment="Left" Margin="588,33,0,0" VerticalAlignment="Top" Height="19" Width="91"/>
+        <CheckBox Content="ИЛИ" HorizontalAlignment="Left" Margin="588,52,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="НЕ" HorizontalAlignment="Left" Margin="588,72,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="И-НЕ" HorizontalAlignment="Left" Margin="588,92,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="ИЛИ-НЕ" HorizontalAlignment="Left" Margin="588,112,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="ИСКЛЮЧАЮЩЕЕ ИЛИ" HorizontalAlignment="Left" Margin="588,132,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
