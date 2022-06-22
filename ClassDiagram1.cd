@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Graph.GraphVertex">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAACGAACAhAAEoAAABCAA=</HashCode>
+      <FileName>GraphVertex(2).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graph.OrientedGraph">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQADAACAAIMoAADAAREAAAAAICCQEAAAEAQCAAJBAEA=</HashCode>
+      <FileName>OrientedGraph(2).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Generators.Parser">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAAAAAAAAACgAAAgAACACACAAAgIAAAAAAAAAAA=</HashCode>
+      <FileName>Parsing(3).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Properties.Settings">
+    <Position X="7" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Properties.Settings.generationTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Settings(2).cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABKCIAABAAIAEABAgAAAABABABAABAEEAAAAAAAA=</HashCode>
+      <FileName>Settings(2).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generators.TruthTable">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgEAAAYgIAAAAGACAABIAAAAQABAAAAA=</HashCode>
+      <FileName>TruthTable(1).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
