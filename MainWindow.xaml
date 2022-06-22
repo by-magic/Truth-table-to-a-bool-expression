@@ -15,17 +15,17 @@
         <TextBox x:Name="tbCount" HorizontalAlignment="Left" Margin="281,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"/>
         <Button Content="Ввести" HorizontalAlignment="Left" Margin="341,87,0,0" VerticalAlignment="Top" Click="cmCountOfVar"/>
         <Label Content="Полученное выражение:" HorizontalAlignment="Left" Margin="33,192,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="tbText3" HorizontalAlignment="Left" Margin="190,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Создать файл" HorizontalAlignment="Left" Margin="33,245,0,0" VerticalAlignment="Top" Height="23" Width="102" Click="cmMakeFile"/>
-        <Label Content="Путь файла с логическим выражением:" HorizontalAlignment="Left" Margin="158,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.595,-0.353"/>
-        <TextBox x:Name="tbName" HorizontalAlignment="Left" Margin="398,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbText3" HorizontalAlignment="Left" Margin="190,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="309" Height="48"/>
+        <Button Content="Создать файл" HorizontalAlignment="Left" Margin="33,290,0,0" VerticalAlignment="Top" Height="23" Width="102" Click="cmMakeFile"/>
+        <Label Content="Путь файла с логическим выражением:" HorizontalAlignment="Left" Margin="158,290,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.595,-0.353"/>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Margin="398,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Выберите необходимый базис:" HorizontalAlignment="Left" Height="30" Margin="398,28,0,0" VerticalAlignment="Top" Width="185"/>
-        <CheckBox Content="И" HorizontalAlignment="Left" Margin="588,33,0,0" VerticalAlignment="Top" Height="19" Width="91"/>
-        <CheckBox Content="ИЛИ" HorizontalAlignment="Left" Margin="588,52,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="НЕ" HorizontalAlignment="Left" Margin="588,72,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="И-НЕ" HorizontalAlignment="Left" Margin="588,92,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="ИЛИ-НЕ" HorizontalAlignment="Left" Margin="588,112,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="ИСКЛЮЧАЮЩЕЕ ИЛИ" HorizontalAlignment="Left" Margin="588,132,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CheckBoxAnd" Content="И" HorizontalAlignment="Left" Margin="588,33,0,0" VerticalAlignment="Top" Height="19" Width="91"/>
+        <CheckBox x:Name="CheckBoxOr" Content="ИЛИ" HorizontalAlignment="Left" Margin="588,52,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CheckBoxNot" Content="НЕ" HorizontalAlignment="Left" Margin="588,72,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CheckBoxNand" Content="И-НЕ" HorizontalAlignment="Left" Margin="588,92,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CheckBoxNor" Content="ИЛИ-НЕ" HorizontalAlignment="Left" Margin="588,112,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CheckBoxXor" Content="ИСКЛЮЧАЮЩЕЕ ИЛИ" HorizontalAlignment="Left" Margin="588,132,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
